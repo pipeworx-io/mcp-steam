@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.pipeworx-io/steam",
   "title": "Steam",
-  "description": "Steam Web API: profiles, owned games, achievements, app news, player counts.",
-  "version": "0.1.0",
+  "description": "Steam Web API MCP.",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/steam",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-steam",
