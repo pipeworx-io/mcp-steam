@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-steam",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Steam Web API MCP.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-steam": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "steam"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-steam.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/steam",
   "pipeworx": {
-    "sourceHash": "v1-738420d589fff7b17782ecd5b56346c400659d3cffd7589569c526cf052d5b8b",
-    "sourceCommit": "d4a9636716f113458bd312e487c065f76548df8c"
+    "mode": "gateway",
+    "slug": "steam",
+    "gatewaySlug": "steam",
+    "sourceHash": "v1-f21da325f2baeab59eba62c98e83cca9e857a77a2e30317a312c2a61f0622a75",
+    "sourceCommit": "f47d581679e1e887373df51ba623f891fbe4c464"
   }
 }
