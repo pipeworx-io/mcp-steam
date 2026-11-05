@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-steam",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Steam Web API MCP.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "steam",
     "gatewaySlug": "steam",
-    "sourceHash": "v1-f21da325f2baeab59eba62c98e83cca9e857a77a2e30317a312c2a61f0622a75",
-    "sourceCommit": "f47d581679e1e887373df51ba623f891fbe4c464"
+    "sourceHash": "v1-0fd39d644567b19562147e95ad50a0d32c173e12f9c8d73d5b711bbe876f5789",
+    "sourceCommit": "868e119d526d5409447b7ee2149afba7eb9d2593"
   }
 }
